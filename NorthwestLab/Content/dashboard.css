@@ -1,0 +1,146 @@
+﻿body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
+}
+
+/*Navigation Styles*/
+ul.nav.navbar-nav {
+    float: right;
+}
+
+.navbar.navbar-inverse.navbar-fixed-top {
+    background: #3d4246;
+    border: none;
+}
+
+
+/*Sidebar Styles*/
+
+@import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
+
+
+
+a, a:hover, a:focus {
+    color: inherit;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+#sidebar {
+    /* don't forget to add all the previously mentioned styles here too */
+    background: #3d4246;
+    color: #fff;
+    transition: all 0.3s;
+}
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #3d4246;
+    }
+
+    #sidebar ul.components {
+        padding: 20px 0;
+        border-bottom: 1px solid #b4bed2;
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    #sidebar ul li a {
+        padding: 20px;
+        font-size: 1.2em;
+        display: block;
+    }
+
+        #sidebar ul li a:hover {
+            color: #949eaa;
+            background: #fff;
+        }
+
+    #sidebar ul li.active > a, a[aria-expanded="true"] {
+        color: #fff;
+        background: #949eaa;
+    }
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
+}
+
+.wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+    min-height: 100vh;
+}
+    #sidebar ul {
+        padding-top: 39px;
+    }
+
+/*Main Content Styles*/
+.jumbotron {
+    margin: 20px;
+    background-color: #174359;
+    color: #ffffff;
+}
+
+a.btn.btn-primary.btn-lg {
+    background-color: #EDB023;
+    border-color: #EDB023;
+}
+
+/*Dashboard Styles*/
+.loader {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-left: 16px solid #3498db;
+    border-top: 16px solid #3498db;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+}
+
+/*Estimate Form Styles*/
+input.btn.btn-default {
+    background-color: #EDB023;
+    border-color: #EDB023;
+    color: #fff;
+}
+
+.form-horizontal {
+    background-color: #E9E2CF;
+    border-radius: 8px;
+    color: black;
+    padding: 30px;
+    margin: 20px;
+}
+
+.form-control {
+    border: none;
+    background-color: #E9E2CF;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 1px solid #fff;
+}
