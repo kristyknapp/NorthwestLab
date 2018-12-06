@@ -144,3 +144,25 @@ input.btn.btn-default {
     border-radius: 0;
     border-bottom: 1px solid #fff;
 }
+
+/*Notification Box*/
+.notification {
+    background-color: floralwhite;
+    border-radius: 5px;
+    height: 2.5em;
+    margin: 10px;
+}
+
+p.message {
+    font-size: 1.2em;
+    color: green;
+    padding: 3px 12px;
+    display: inline-block;
+}
+.readmore {
+    padding: 1px 5px;
+    font-size: 12px;
+    line-height: 260%;
+    border-radius: 3px;
+}
+

@@ -43,11 +43,21 @@
 
 
     <div class="wrapper">
+        <!-- Sidebar -->
+        <div id="sidebar">
+            <ul class="list-unstyled">
+                <li><a href="">Orders</a></li>
+                <li><a href="">Status</a></li>
+                <li><a href="">Reports</a></li>
+                <li class="active"><a href="">Notifications</a></li>
+                <li><a href="">Invoices</a></li>
+            </ul>
+        </div>
+
         <div class="container body-content">
             @RenderBody()
-            
+            <hr />
             <footer>
-                <hr />
                 <p>&copy; @DateTime.Now.Year - Northwest Labs</p>
             </footer>
         </div>

@@ -1,0 +1,40 @@
+﻿
+@model NorthwestLab.Models.Clients
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_PortalLayout.cshtml";
+}
+
+<div class="jumbotron center-block">
+    <h3>Notifications</h3>
+    <hr />
+    <div class="notification">
+        <p class="message">Order #2384 requires approval</p>
+        <a shref="~/Views/Home/Estimate.cshtml" class="btn btn-primary btn-xs readmore"style="float:right">Read more &raquo;</a>
+    </div>
+    <div class="notification">
+        <p class="message">Delay in schedule for Order #1257</p>
+        <a href="~/Views/Home/Estimate.cshtml" class="btn btn-primary btn-xs readmore" style="float:right">Read more &raquo;</a>
+
+    </div>
+     
+</div>
+
+<div class="row">
+    <div class="col-md-4">
+        <h2>Work Order Status</h2>
+        <div class="loader"></div>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Status &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Work Order Status</h2>
+        <div class="loader"></div>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301866">Status &raquo;</a></p>
+    </div>
+    <div class="col-md-4">
+        <h2>Work Order Status</h2>
+        <div class="loader"></div>
+        <p><a class="btn btn-default" href="https://go.microsoft.com/fwlink/?LinkId=301867">Status &raquo;</a></p>
+    </div>
+</div>
+

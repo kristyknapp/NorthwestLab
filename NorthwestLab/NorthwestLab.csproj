@@ -153,6 +153,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
+    <Compile Include="Controllers\ClientPortalController.cs" />
     <Compile Include="Controllers\ClientsController.cs" />
     <Compile Include="Controllers\EmployeesController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
@@ -173,6 +174,7 @@
     <Compile Include="Models\NorthwestLab.cs" />
     <Compile Include="Models\Orders.cs" />
     <Compile Include="Models\Required.cs" />
+    <Compile Include="Models\Sample.cs" />
     <Compile Include="Models\Samples.cs" />
     <Compile Include="Models\Status.cs" />
     <Compile Include="Models\Tests.cs" />
@@ -186,6 +188,9 @@
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\dashboard.css" />
+    <Content Include="Content\images\chemical.jpg" />
+    <Content Include="Content\images\customer.jpg" />
+    <Content Include="Content\loginStyles.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
@@ -232,6 +237,10 @@
     <Content Include="Views\Employees\Details.cshtml" />
     <Content Include="Views\Employees\Edit.cshtml" />
     <Content Include="Views\Employees\Index.cshtml" />
+    <Content Include="Views\Home\Login.cshtml" />
+    <Content Include="Views\Shared\_PortalLayout.cshtml" />
+    <Content Include="Views\ClientPortal\Index.cshtml" />
+    <Content Include="Views\ClientPortal\display.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

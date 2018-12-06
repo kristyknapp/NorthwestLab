@@ -33,5 +33,16 @@ namespace NorthwestLab.Controllers
 
             return View();
         }
+
+        public ActionResult Login()
+        {
+            return View();
+        }
+
+        //[HttpPost]
+        //public ActionResult Login(FormCollection, rememberMe)
+        //{
+        //    return View("Index", "ClientPortal");
+        //}
     }
 }
